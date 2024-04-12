@@ -9,7 +9,7 @@
   height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
+  justify-content: space-evenly;
   align-items: center;
 }
 .wrap a {
@@ -24,4 +24,18 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.wrap .postsArea {
+  width: 100%;
+  height: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.wrap .postsArea .postCard {
+  width: 30%;
+  height: 80%;
+  border: 1px solid #333;
+  margin-bottom: 20px;
 }/*# sourceMappingURL=style.css.map */
