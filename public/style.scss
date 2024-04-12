@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: monospace;
 }
 
 .wrap{
@@ -41,6 +42,11 @@
             height: 80%;
             border: 1px solid #333;
             margin-bottom: 20px;
+            padding: 10px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            font-size: 18px;
            
         }
     }
